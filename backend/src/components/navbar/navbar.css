@@ -1,0 +1,89 @@
+.logo{
+    width: 200px;
+     min-width: 150px;
+  }
+  .navbarPar1{
+      position: relative;
+      background-color: #292930 !important;
+  }
+  .navbarPar2{
+      position: relative;
+  }
+  .navbarList{
+      display: flex;
+      gap: 20px;
+      cursor: pointer;
+     
+  }
+  .navbarList > li{
+      font-size: 16px;
+      list-style: none;
+  }
+  .MuiPaper-root{
+      background-color: white !important;
+      color: rgb(129, 127, 127) !important;
+      box-shadow: none !important;
+  }
+  .hello{
+      color: black !important;
+  }
+  .hello2{
+      color: white !important;
+  }
+  .dark-navbar{
+      background-color: #1c1c20 !important;
+     
+  }
+  .dark-mode{
+      background-color: black !important;
+      
+  }
+  .bgWhite{
+      color: white !important;
+  }
+  .navbarItem{
+      font-weight: 400;
+  }
+  .listEmp{
+      color: #3728B7 !important;
+  }
+  .menuIcon{
+      display: none !important;
+  }
+  /* .css-1wnsr1i{
+      width: 50% !important;
+      top: 50%!important;
+      height: 100%;
+      border: none !important;
+  } */
+  .modalLogo{
+      width: 186px;
+  }
+  .sliderUlPar{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  }
+  .sliderUlPar > li{
+      list-style: none;
+  }
+  .hiddenList{
+      color: #D3D3D3;
+      font-size: 16px;
+  }
+  @media (max-width: 900px) {
+      .menuIcon{
+         display: flex !important;
+         color: black !important;
+      }
+      .navbarTitles{
+          display: none !important;
+      }
+    }
+    @media (max-width: 350px) {
+     .logo{
+     
+     }
+    }
+  
+  

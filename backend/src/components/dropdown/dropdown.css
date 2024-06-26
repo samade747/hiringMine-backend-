@@ -1,0 +1,78 @@
+/* .MuiPaper-elevation{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px !important;
+
+} 
+*/
+.selectOptions{
+    font-size: 14px !important;
+    padding: 0 10px !important;
+    background-color: #6851ff !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+    border: none !important;
+    
+    
+}
+#demo-multiple-checkbox-label.css-1g3qs2m-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: white !important;
+  
+}
+.css-1ykma1s-MuiFormLabel-root-MuiInputLabel-root {
+  color: #fff !important;
+  transform: translate(10%, 40%) !important;
+}
+
+.selectOptionsHey{
+  background-color: #6851ff !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  border-radius: 25px !important;
+  border: none !important;
+}
+.MuiFormControl-root{
+    margin-bottom: 0 !important;
+}
+.MuiSelect-icon {
+    color: #fff !important; 
+  }
+.customMenuItem{
+    background: #6851FF14;
+    padding: 0 10px !important;
+    
+}
+  .MuiPaper-elevation:nth-child(3), .css-uleioz {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    width: 250px !important;
+   
+
+  }
+  .MuiPaper-elevation:nth-child(3)::-webkit-scrollbar{
+     display: none !important; 
+  }
+.bottomdropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 8px;
+    margin-top: 16px;
+
+}
+.resultBtn{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(104, 81, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px !important;
+    font-size: 10px !important;
+    border-radius: 20px !important;
+    font-weight: 700 !important;
+    text-transform: none !important;
+    gap: 10px;
+}
+.bottomdropdown p{
+  cursor: pointer;
+}
+.bottomdropdown p:active{
+   color: #6851ff;
+}
