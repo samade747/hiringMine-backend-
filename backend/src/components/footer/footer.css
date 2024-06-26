@@ -1,0 +1,75 @@
+.footer{
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+   
+}
+.footerRightPara1{
+    margin: 10px 0px 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgb(255, 255, 255);
+}
+.footerRightPara{
+    margin-top: 30px;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+}
+.footerRightIocns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+    width: 50%;
+   
+}
+.footerLeftInfoPar{
+    display: flex;
+    justify-content: end;
+    margin: 20px 0;
+    align-items: center;
+   
+}
+.footerLeftInfo>ul>li{
+    font-weight: 600;
+    margin-bottom: 20px;
+    cursor: auto;
+    font-size: 16px;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+.footerLeftInfo{
+    display: flex;
+    flex-direction: column;
+}
+.footerLeftInfo >a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+}
+.footerBottom{
+    border-top: 1px solid #e5e7eb;
+    text-align: center;
+    padding: 8px 0;
+    color: #FFFFFF;
+}
+@media (max-width: 900px) {
+ .footerRightIocns{
+    width: 70%;
+ }
+ .footerLeftInfoPar{
+    justify-content: start;
+ }
+
+}

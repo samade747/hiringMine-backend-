@@ -1,0 +1,266 @@
+.navbarContainer{
+    padding: 10px 0 !important;
+ }
+ 
+ .navbarContainer1{
+    padding: 10px 0 !important;
+    /* background-color:  !important; */
+ }
+ .navbarContainer2{
+    padding: 10px 0 !important;
+ }
+ .logo{
+    width: 186.35px;
+   
+}
+.logo2{
+    width: 186.35px;
+}
+.navbarList{
+    display: flex;
+    align-items: center;
+}
+.menuIcon1{
+    color: #FFFFFF;
+}
+.hello{
+    color: black !important;
+    font-size: 14px;
+    width: fit-content !important;
+}
+.hello2{
+    color: white !important;
+    font-size: 14px;
+}
+.MuiPaper-root{
+    background-color: transparent !important;
+}
+.sideBar{
+    background-color: rgb(41 41 48 ) !important;
+}
+.jobsSearchBar{
+    border: 1px solid #b3b3b3;
+    display: flex;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px 0;
+}
+.formWrapper{
+    width: 80%;
+}
+.jobsInput2{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    font-size: 16px;
+    background-color: transparent;
+}
+.jobsInput1{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #fff;
+}
+/* .searchIconJob{
+    width: 18px !important;
+} */
+.jobsSearchBar>button{
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jobbtn1{
+    border: none;
+    border-right: 2px solid rgb(184, 183, 183);
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    font-weight: 500;
+}
+.jobbtn3{
+    border: none;
+    border-right: 2px solid rgb(184, 183, 183);
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    font-weight: 500;
+    color: #fff;
+}
+.jobbtn2{
+    border: none;
+    border-left: 2px solid rgb(184, 183, 183);
+    background-color: transparent;
+    cursor: pointer;
+}
+.jobbtn2>img{
+    width: 15px;
+    height: 15px;
+}
+.jobbtn2>img:focus{
+    color: blue;
+}
+
+.middleNavbarGrid4{
+    padding-top: 0 !important ;
+   
+}
+
+.dropdownWrapper {
+    overflow-x: auto; /* Enable horizontal scrollbar if content overflows */
+    white-space: nowrap; /* Prevent contents from wrapping */
+    width: 100%; /* Set width to fit container */
+}
+
+.filterDropdown {
+    display: inline-block; /* Display dropdowns in a row */
+    width: 200px; /* Set width of each dropdown */
+    margin-right: 10px; 
+    margin-top: 4px;/* Add margin between dropdowns */
+}
+.dropdownWrapper::-webkit-scrollbar {
+    height: 4px; /* Width of the scrollbar */
+}
+.dropdownWrapper::-webkit-scrollbar-thumb {
+    background-color:  rgb(184, 183, 183); /* Color of the scrollbar handle */
+    border-radius: 4px; /* Border radius of the scrollbar handle */
+}
+ /* Dropdown css */
+ .selectOptions{
+    font-size: 14px !important;
+    padding: 0 10px !important;
+    background-color: #6851ff !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+    border: none !important;
+    
+    
+}
+#demo-multiple-checkbox-label.css-1g3qs2m-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: white !important;
+  
+}
+.css-1ykma1s-MuiFormLabel-root-MuiInputLabel-root {
+  color: #fff !important;
+  transform: translate(10%, 40%) !important;
+}
+
+.selectOptionsHey{
+  background-color: #6851ff !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  border-radius: 25px !important;
+  border: none !important;
+}
+.MuiFormControl-root{
+    margin-bottom: 0 !important;
+}
+.MuiSelect-icon {
+    color: #fff !important; 
+  }
+.customMenuItem{
+    background: #6851FF14;
+    padding: 0 10px !important;
+    
+}
+  .MuiPaper-elevation:nth-child(3), .css-uleioz {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px !important;
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    width: 250px !important;
+   
+
+  }
+  .MuiPaper-elevation:nth-child(3)::-webkit-scrollbar{
+     display: none !important; 
+  }
+.bottomdropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 8px;
+    margin-top: 16px;
+
+}
+.resultBtn{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(104, 81, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px !important;
+    font-size: 10px !important;
+    border-radius: 20px !important;
+    font-weight: 700 !important;
+    text-transform: none !important;
+    gap: 10px;
+}
+.bottomdropdown p{
+  cursor: pointer;
+}
+.bottomdropdown p:active{
+   color: #6851ff;
+}
+.resetBtn{
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(110, 109, 109);
+   
+}
+.resetBtn:active{
+    color: #6851ff;
+}
+.menuIcon{
+    color: black;
+}
+
+
+@media (max-width: 900px) {
+    /* .menuIcon{
+       display: flex !important;
+       color: black !important;
+    } */
+    .navbarList{
+        display: none !important;
+    }
+    /* .menuIcon1{
+        display: flex !important;
+        color: #fff;
+    } */
+  }
+  @media (max-width: 600px){
+    .navbarContainer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .navbarContainer2{
+        padding: 20px 0 !important;
+     }
+    .middleNavbarGrid{
+        padding-top:0 !important ;
+    }
+    .formWrapper{
+        width: 100%;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+    .logoImg{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 0 !important;
+    }
+  }
+  @media (max-width: 350px) {
+   .logo{
+    max-width: 120px;
+   }
+  }
+

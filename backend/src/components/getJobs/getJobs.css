@@ -1,0 +1,95 @@
+.jobsCon{
+    margin: 80px 0 0;
+    padding: 0 20px !important;
+}
+.title{
+    text-align: center;
+}
+.title > h3{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.167;
+}
+.title>h3 span{
+    color: #6851FF ;
+}
+.title>p{
+    font-weight: 400 !important;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+}
+.jobsCardp-1{
+    color: rgb(104, 81, 255) !important;
+    font-size: 14px !important;
+    font-weight: 600;
+}
+.jobsUserIcon{
+    color: rgb(104, 81, 255) !important;
+}
+.cardsItem2{
+    padding: 16px 26px !important;
+    height: 220px !important;
+    display: flex;
+    border-radius: 16px !important;
+    border: 2px solid #6851ff !important;
+    background-color: #fff;
+}
+.cardsItem1{
+    padding: 16px 26px !important;
+    height: 220px !important;
+    display: flex;
+    border-radius: 16px !important;
+    border: 2px solid #6851ff !important;
+    background-color: #292930 !important;
+}
+.jobsCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    gap:  10px;
+    cursor: auto;
+   
+}
+.jobscardp-2{
+    color: rgb(63, 63, 63);
+    text-align: start !important;
+    font-size: 14px !important;
+}
+.jobscardp-3{
+    text-align: start;
+    color: #FFFFFF !important;
+    font-size: 15px !important;
+}
+
+@media (max-width: 600px) {
+    .title{
+        text-align: start !important;
+    }
+    .title1{
+        text-align: start !important;
+    }
+    .title1 > h3{
+        font-size: 30px !important;
+        font-weight: 600;
+        line-height: 1.167;
+        text-align: start !important;
+    }
+    .title > h3{
+        font-size: 30px !important;
+        font-weight: 600;
+        line-height: 1.167;
+        text-align: start !important;
+    }
+    .title1>p{
+        font-weight: 400 !important;
+        line-height: 1.5;
+        letter-spacing: 0.00938em;
+        color: rgb(49, 49, 49);
+        font-size: 20px;
+        color: #FFFFFF !important;
+      
+    }
+  }

@@ -1,0 +1,237 @@
+.latestJobs{
+    margin-top: 80px;
+   
+}
+.title > h3{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.167;
+}
+.title1 >h3{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.167;
+    color: #e8e3e3 !important;
+}
+.title>h3 span{
+    color: #6851FF ;
+}
+.title1>h3 span{
+    color: #6851FF ;
+}
+.LatestJobs{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(104, 81, 255) !important;
+    gap: 25px;
+    height: 330px !important;
+    background: #ffffff !important;
+    box-shadow: 0 6px 12px #0000001a !important;
+    border-radius: 16px !important;
+}
+.LatestJobs2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(104, 81, 255) !important;
+    gap: 17px !important;
+    height: 330px !important;
+    background-color: rgb(30, 29, 29) !important;
+    box-shadow: 0 6px 12px #0000001a;
+    border-radius: 16px !important;
+    color: #D3D3D3 !important;
+}
+.LatestJobsLogo{
+    width: 50px;
+}
+.LatestJobsHeader{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.LatestJobsTitles{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ 
+}
+
+.companyName{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+.designation{
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    font-weight: 600;
+}
+.salary{
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgb(77, 59, 219);
+    font-weight: 500;
+}
+.LatestJobsInfoPar{
+    display: flex;
+    flex-direction: column;
+}
+.LatestJobsBtn{
+    background-color: rgb(104, 81, 255) !important;
+    border-radius: 20px !important;
+    font-weight: 700 !important;
+    text-transform: none !important;
+}
+.LatestJobsBtnAndCountry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LatestJobsCountry{
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    letter-spacing: 0.00938em !important;
+    font-weight: 600 !important;
+}
+.LatestJobsInfoUser{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.LatestJobsInfoUser1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #D3D3D3 !important;
+}
+.LatestJobsInfoUser1 .hourInfo{
+    
+    color: #D3D3D3 !important;
+}
+.LatestJobsInfoUser1 .viewsInfo{
+    
+    color: #D3D3D3 !important;
+}
+.hourInfo{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgb(63, 63, 63);
+}
+.viewsInfo{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgb(63, 63, 63);
+}
+.LatestJobsInfo{
+    height: 82px;
+    position: relative;
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis;
+}
+.LatestJobsInfo1{
+    height: 82px;
+    position: relative;
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis;
+    color: #e8e3e3;
+}
+.LatestJobsInfo>h2{
+  font-size: 14px;
+  font-weight: 400;
+  font-weight: inherit;
+}
+.LatestJobsInfo1>div h2{
+    font-size: 14px;
+    font-weight: inherit;
+  }
+.LatestJobsInfo div >h2{
+    font-size: 14px;
+  }
+  .LatestJobsInfo1>h1{
+    font-size: 14px;
+    font-weight: inherit;
+  }
+.LatestJobsInfo>p{
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: rgb(49, 49, 49) !important;
+   
+    font-weight: 500 !important;
+
+}
+.LatestJobsInfo1>p{
+    flex-wrap: wrap;
+    font-size: 14px;
+   
+    color: #D3D3D3 !important;
+    font-weight: 500 !important;
+
+}
+.LatestJobsInfo1 >h3{
+  font-size: 14px !important;
+}
+.LatestJobsInfo >h3{
+  font-size: 14px !important;
+}
+.LatestJobsInfo1 span{
+  font-size: 14px !important;
+  color: #D3D3D3 !important;
+  font-weight: 500 !important;
+}
+
+  .LatestJobsInfo p:nth-child(4)::after {
+    content: '...';
+    display: inline-block;
+    color: black !important;
+  }
+ 
+  
+  .LatestJobsInfo1 p:nth-child(4)::after {
+    content: '...';
+    display: inline-block;
+    color: #D3D3D3 !important;
+  }
+ .job-details h1{
+  font-size: 14px;
+ }
+ .job-details p{
+  font-size: 14px;
+ }
+ .job-details strong{
+  font-size: 12px;
+ }
+ .job-details p:nth-child(1){
+  display: none !important;
+ }
+ .job-details p:nth-child(3){
+  display: none !important;
+ }
+ .job-details p:nth-child(5) {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: inherit;
+}
+.job-details p:nth-child(5){
+  margin-top: 10px;
+}
+.job-summary{
+  display: none;
+}
+.loadingLatestJobs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
