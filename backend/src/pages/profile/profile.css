@@ -1,0 +1,88 @@
+.profilePar{
+    width: 100% !important;
+    margin: 0 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+.headerProfile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 70px;
+}
+.logoProfile{
+    width: 30%;
+    height: 40px;
+}
+.logoProfile img{
+    width: 80%;
+    height: 100%;
+    
+}
+.itemsProfile{
+    border: 1px solid rgb(104, 81, 255);
+    width: 40%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 8px;
+    overflow: hidden;
+   
+
+}
+.profileLogo{
+   width: 100%;
+}
+.logoutParent{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+    cursor: pointer;
+    width: 100%;
+}
+.logoutParent:active{
+    background-color: rgb(161, 158, 158);
+
+}
+.itemsProfile input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+.itemsProfile button{
+    height: 100%;
+    font-size: 16px;
+    padding: 3px;
+    border: none;
+    border-left: 1px solid grey;
+    cursor: pointer;
+    background-color: #6851ff;
+    color: #fff;
+}
+.logoutProfile{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+@media (max-width: 480px) {
+    .headerProfile{
+        flex-direction: row-reverse;
+    }
+    .logoutProfile{
+        justify-content: flex-start;
+       width: 30%;
+    }
+    .logoProfile{
+        display: none;
+    }
+    .itemsProfile{
+        width: 70%;
+    }
+};
