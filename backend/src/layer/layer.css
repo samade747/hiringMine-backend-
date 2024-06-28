@@ -1,0 +1,63 @@
+.layerTitle{
+    font-weight: 600 !important;
+    font-size: 40px !important;
+    line-height: 57px !important;
+    letter-spacing: -.02em !important;
+    color: var(--neutral600);
+    color: black !important;
+    
+}
+.layerTitle2{
+    font-weight: 600 !important;
+    font-size: 40px !important;
+    line-height: 57px !important;
+    letter-spacing: -.02em !important;
+    color: var(--neutral600);
+    color: #E8E3E3 !important;
+}
+.layerTitle>h3>span{
+    color: #6851FF !important;
+}
+.layerTitle2>h3>span{
+    color: #6851FF !important;
+}
+.css-46bh2p-MuiCardContent-root, .css-dnrpxu-MuiCardActions-root{
+    padding: 0 !important;
+}
+.cmBtn{
+    border: 1px solid rgba(104, 81, 255, 0.5) !important;
+    color: rgb(104, 81, 255) !important;
+    border-radius: 20px !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+}
+.middleBorder1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.middleBorder{
+    border-left: 2px solid #6851FF !important;
+   height: 100%;
+   display: flex;
+   align-items: center;
+  
+   
+   
+}
+.middleBorder3{
+    height: 130px;
+}
+.htag{
+    visibility: hidden;
+}
+.cardItems{
+    background: transparent !important;
+}
+
+@media (max-width: 900px) {
+   .comingSoonContainer{
+    display: none !important;
+   }
+  }
