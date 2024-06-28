@@ -1,34 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
+import Home from "../src/pages/home/Home"
+import Categories from './pages/categories/Categories'
+import { Provider, useSelector } from 'react-redux'
+import Jobs from './pages/jobs/Jobs'
+import JobDetail from './pages/jobDetail/JobDetail'
+import Signup from './pages/signup/Signup'
+import VerifyEmail from './pages/verify/VerifyEmail'
+import Login from './pages/login/Login'
+import ForgetPassword from './pages/forgetpassword/ForgetPassword'
+import ResetPassword from './pages/resetPassword/ResetPassword'
+import { useState } from 'react'
+import Profile from './pages/profile/Profile'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const { bgTheme } = useSelector(state => state.bgTheme);
+  console.log("bgTheme he ok",bgTheme);
+
+  
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className={bgTheme? "showTheme":"notShowTheme"}>
+   <BrowserRouter>
+     <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/users' element={<Profile/>}/>
+
+        <Route path='/reset_password/:id/:token' element={<ResetPassword/>}/>
+
+        <Route path='/forget_password' element={<ForgetPassword/>}/>
+        <Route path='/verifyEmail' element={<VerifyEmail/>}/>
+        <Route path='/categories' element={<Categories/>}/>
+        <Route exact path='/jobsearch' element={<Jobs />}/>
+        <Route path='/jobsearch/jid/:id' element={<JobDetail/>}/>
+
+     </Routes>
+   </BrowserRouter>
+   </div>
   )
 }
 

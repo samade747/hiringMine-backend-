@@ -1,0 +1,88 @@
+.headerTitle2>h3{
+    font-size: 3rem;
+    line-height: 1.167;
+    letter-spacing: 0em;
+    font-weight: 600;
+    color: rgb(104, 81, 255);
+    text-align: center;
+    margin: 24px 0px 0px;
+}
+.jobsCon{
+    margin-top: 40px;
+}
+.cards{
+    padding: 16px 26px !important;
+    height: 220px !important;
+    display: flex;
+    border-radius: 16px !important;
+    margin-top: 10px;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s all !important;
+    background-color: #ffff !important;
+}
+.cards1{
+    cursor: pointer !important;
+    border: 2px solid #6851ff !important;
+    padding: 16px 26px !important;
+    height: 220px !important;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px !important;
+    background-color: #292930 !important;
+}
+.cards:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5) !important; /* Change the box shadow on hover */
+  }
+.jobsCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    gap:  10px;
+    cursor: auto;
+   
+   
+}
+.loader{
+ 
+  margin: 100px auto;
+  height: 100px;
+  background-size: cover;
+   width: 220px;
+   position: relative;
+}
+.svgImg2{
+    width: 100px;
+    position: absolute;
+    left: 40px;
+    top: 47px;
+   
+  
+    
+   
+}
+.svgLoader{
+    width: 180px;
+    margin: 2px auto;
+}
+
+.jobscardp-2{
+    color: rgb(63, 63, 63);
+    text-align: start;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    font-size: 18px;
+    color: rgb(108, 108, 108);
+   
+}
+
+.cards{
+    border: 2px solid #6851ff !important;
+}
+@media (max-width: 600px) {
+   .jobsCon{
+    margin-top: 0 !important;
+   }
+  }
